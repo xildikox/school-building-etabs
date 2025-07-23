@@ -1,4 +1,4 @@
-# 🏫 School Building Structural Analysis – CE 482 Final Project
+# 🏫 Structural Analysis of School Building – CE 482 Final Project
 
 This repository contains the ETABS-based structural analysis of a reinforced concrete school building completed as part of the **CE 482 – Computational Structural Analysis and Design** course at Abdullah Gül University.
 
