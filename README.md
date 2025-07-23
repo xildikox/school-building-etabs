@@ -34,7 +34,7 @@ This repository contains the ETABS-based structural analysis of a reinforced con
 ## 📁 Files
 
 - `CE482_Elif_Arslan_Final`: ETABS model file  
-- `School Building Report.docx`: Final report with figures and analysis  
+- `School Project Report.docx`: Final report with figures and analysis  
 
 ## 📚 References
 
