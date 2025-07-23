@@ -1,30 +1,44 @@
-# 🏫 School Building Design and Analysis – CE 482 Final Project
+# 🏫 School Building Structural Analysis – CE 482 Final Project
 
-This project presents the structural modeling and analysis of a reinforced concrete school building using **ETABS**. The building is designed in accordance with:
+This repository contains the ETABS-based structural analysis of a reinforced concrete school building completed as part of the **CE 482 – Computational Structural Analysis and Design** course at Abdullah Gül University.
 
-- 🇹🇷 Turkish Earthquake Code (latest version)
-- TS500 (Reinforced Concrete Design Code)
+## 📌 Project Scope
 
-## 📌 Project Tasks
+- 3D finite element modeling of a school building using **ETABS**
+- Seismic data input based on **AFAD Earthquake Hazard Map** for Elazığ, Turkey
+- Modal analysis and response spectrum analysis
+- Parametric studies on structural section sizes and their impact on dynamic response
 
-1. **Modal Analysis** using ETABS
-2. **Beam and Column Design** based on modal frequencies
-3. **Modal Time History Analysis**
-4. **Response Spectrum Analysis**
+## 🛠️ Tools Used
 
-Only the self-weight of the structure was considered in loading conditions. Member dimensions vary per student; my version includes a column length of `z - 0.4`.
+- **ETABS v22.5.1** for modeling and analysis  
+- **AFAD TDTH** for seismic parameters  
+- **MS Word** for report preparation  
 
-## 🧰 Tools Used
+## 📐 Key Modeling Details
 
-- ETABS (for structural modeling and analysis)
-- Microsoft Word (for report preparation)
+- Concrete: **C30** (E = 32,500 MPa)  
+- Steel: **B420S** (fy = 420 MPa)  
+- Beams: 30x60 cm, Columns: 40x40 / 50x40 cm  
+- Slab thickness: 15 cm  
+- Soil Class: **ZD**, SDS = 1.000, SD1 = 0.517  
+- Story height adjusted to: **Z - 0.4 m** (as per assignment instructions)  
 
-## 📂 Files Included
+## 📊 Analysis Summary
 
-- `.EDB` file: ETABS model  
-- `Report.pdf` or `.docx`: Design and analysis report  
-- `Screenshot.png`: View of ETABS model  
+- **Modal analysis**: 1st mode period ≈ 0.253 s  
+- **Response spectrum**: Based on AFAD coefficients with 5% damping  
+- **Parametric impact**: Increasing column sizes → decreased period (higher stiffness)  
+- Slab and beam changes had minor effect on modal behavior  
 
-## 📌 Notes
+## 📁 Files
 
-This project was completed as part of the **CE 482 Structural Design** course. All assumptions not provided in the project description were made based on engineering judgment.
+- `CE482_Elif_Arslan_Final`: ETABS model file  
+- `School Building Report.docx`: Final report with figures and analysis  
+
+## 📚 References
+
+- Turkish Earthquake Code (2018)  
+- TS500, TS498  
+- [AFAD Seismic Map](https://tdth.afad.gov.tr)  
+- ETABS v22.5.1 User Manual  
